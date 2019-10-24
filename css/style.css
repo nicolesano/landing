@@ -1,0 +1,102 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700|Kalam:400,700|Open+Sans&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url("components/footer.css");
+@import url("components/cards.css");
+@import url("components/button.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 8px;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 56px;
+  margin-top: 200px;
+}
+
+h2 {
+  font-family: 'Kalam', cursive;
+  font-size: 32px;
+}
+
+h3, h4 {
+  font-family: Open Sans;
+}
+
+h4 {
+  font-size: 18px;
+  color: #553F2A;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(247, 104, 98);
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  text-align: center;
+  color: #553F2A;
+}
+
+/* Custom design below! */
+
+.banner-text h1, h2 {
+  text-align: right;
+  margin-right: 16px;
+  text-shadow: 0 0 8px #B0A390;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero {
+  height: 500px;
+  width: 100%;
+  background-position: 0 -150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .container {
+    width:700px;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width:500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width:300px;
+  }
+}
